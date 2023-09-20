@@ -6,6 +6,7 @@ export const reqBanner = () =>
         method: "GET",
         withCredentials: true
     })
+
 // 歌单分类/playlist/catlist
 export const reqPlayList = () =>
     requests({
